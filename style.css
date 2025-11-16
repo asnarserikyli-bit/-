@@ -57,10 +57,17 @@ h1{
     font-size: 35px;
     color: black;
 }
-
+#Murat{
+        display: flex; /* Активирует Flexbox для контейнера */
+    align-items: center; /* Выравнивает элементы по центру по вертикали */
+    gap: 20px; /* Добавляет промежуток между изображением и текстом */
+    font-size: 35px;
+    color: black;
+}
 
 .syl{
   font-size: 25px;
 }
+
 
 
