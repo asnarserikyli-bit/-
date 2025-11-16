@@ -71,6 +71,9 @@ h1{
     font-size: 30px;
     color: azure;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 
 
