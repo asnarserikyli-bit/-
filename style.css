@@ -1,0 +1,67 @@
+h1{
+                font-size: 100px;
+                text-align: center; 
+                color: rgb(205, 229, 110);
+}
+            
+               .contmeleft {
+                    border-radius:8px; /* скругляем края блока*/
+                    width: 1000px; /* общая ширина блока*/
+                    border: 1px solid #d9d9d9; /* рамка блока*/
+                    overflow: hidden; /* скрывает возможность появления прокрутки блока. */
+}
+                .contmeleft p{
+                 display: flex; /* Активирует Flexbox для контейнера */
+    align-items: center; /* Выравнивает элементы по центру по вертикали */
+    gap: 20px; /* Добавляет промежуток между изображением и текстом */
+    font-size: 40px;
+    color: beige;
+}
+                 .contmeleft video {
+                    width: 400px; /* ширина картинки 140 */
+                    height: 800px; /* Bысота картинки, от неё будет зависеть и размер общего блока */
+                    object-fit: cover; /* обрезаем края картинки, если они не вместятся в блок */
+                    object-position: 0 70; /* тоже обрезка краев */
+                    margin-right: 10px;
+                    float: left; /* важный момент. с помощью этого знаения, мы показывем браузеру, что блок должен соприкасаться со вторым блоком приемущественно с левой стороны */
+                    }
+                body {
+                        /* 1. Указываем путь к вашему изображению */
+                        background-image: url("С днём рождения!.jpg"); 
+
+                        /* 2. Растягиваем изображение так, чтобы оно покрывало всю область */
+                        background-size: cover; 
+
+                        /* 3. Центрируем изображение */
+                        background-position: center; 
+
+                        /* 4. Запрещаем повторение изображения */
+                        background-repeat: no-repeat; 
+
+                        /* 5. (Необязательно) Фиксируем фон при прокрутке страницы */
+                        background-attachment: fixed;
+}
+
+#Asnar{
+    display: flex; /* Активирует Flexbox для контейнера */
+    align-items: center; /* Выравнивает элементы по центру по вертикали */
+    gap: 20px; /* Добавляет промежуток между изображением и текстом */
+    font-size: 25px;
+    color: aquamarine;
+}
+#mama{
+    display: flex; /* Активирует Flexbox для контейнера */
+    align-items: center; /* Выравнивает элементы по центру по вертикали */
+    gap: 20px; /* Добавляет промежуток между изображением и текстом */
+    font-size: 35px;
+    color: aquamarine;
+}
+#papa{
+    display: flex; /* Активирует Flexbox для контейнера */
+    align-items: center; /* Выравнивает элементы по центру по вертикали */
+    gap: 20px; /* Добавляет промежуток между изображением и текстом */
+    font-size: 25px;
+    color: aquamarine;
+}
+
+
