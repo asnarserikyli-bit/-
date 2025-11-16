@@ -74,6 +74,11 @@ h1{
 html {
   scroll-behavior: smooth;
 }
+audio {
+    min-width: 250px; /* Подберите оптимальное значение */
+    display: block; /* Может помочь с отображением */
+}
+
 
 
 
