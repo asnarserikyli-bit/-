@@ -1,7 +1,7 @@
 h1{
                 font-size: 100px;
                 text-align: center; 
-                color: rgb(205, 229, 110);
+                color: snow;
 }
             
                .contmeleft {
@@ -15,7 +15,7 @@ h1{
     align-items: center; /* Выравнивает элементы по центру по вертикали */
     gap: 20px; /* Добавляет промежуток между изображением и текстом */
     font-size: 40px;
-    color: beige;
+    color: azure;
 }
                  .contmeleft video {
                     width: 400px; /* ширина картинки 140 */
@@ -27,7 +27,7 @@ h1{
                     }
                 body {
                         /* 1. Указываем путь к вашему изображению */
-                        background-image: url("С днём рождения!.jpg"); 
+                        background-image: url("WhatsApp Image 2025-11-16 at 13.42.20.jpeg"); 
 
                         /* 2. Растягиваем изображение так, чтобы оно покрывало всю область */
                         background-size: cover; 
@@ -47,21 +47,27 @@ h1{
     align-items: center; /* Выравнивает элементы по центру по вертикали */
     gap: 20px; /* Добавляет промежуток между изображением и текстом */
     font-size: 25px;
-    color: aquamarine;
+    color: azure;
 }
 #mama{
     display: flex; /* Активирует Flexbox для контейнера */
     align-items: center; /* Выравнивает элементы по центру по вертикали */
     gap: 20px; /* Добавляет промежуток между изображением и текстом */
     font-size: 35px;
-    color: aquamarine;
+    color: azure;
 }
 #papa{
     display: flex; /* Активирует Flexbox для контейнера */
     align-items: center; /* Выравнивает элементы по центру по вертикали */
     gap: 20px; /* Добавляет промежуток между изображением и текстом */
     font-size: 25px;
-    color: aquamarine;
+    color: azure;
 }
-
+#Madina{
+        display: flex; /* Активирует Flexbox для контейнера */
+    align-items: center; /* Выравнивает элементы по центру по вертикали */
+    gap: 20px; /* Добавляет промежуток между изображением и текстом */
+    font-size: 25px;
+    color: azure;
+}
 
