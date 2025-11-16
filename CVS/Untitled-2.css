@@ -1,0 +1,15 @@
+p {
+    color:green;
+}
+.cola {
+    background-color:red;
+}
+#spisok {
+    text-align:right;
+}
+div > p {
+    font-weight:blond;
+}
+.popa {
+    font-size: 15px;
+}
