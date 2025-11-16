@@ -75,9 +75,11 @@ html {
   scroll-behavior: smooth;
 }
 audio {
-    min-width: 250px; /* Подберите оптимальное значение */
-    display: block; /* Может помочь с отображением */
+    width: 100%;
+    min-width: 240px; /* минимальная ширина для мобильных */
 }
+
+
 
 
 
